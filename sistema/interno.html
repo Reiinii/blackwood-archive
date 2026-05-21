@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>TERMINAL INTERNA</title>
+
+    <link rel="stylesheet"
+          href="interno.css">
+
+</head>
+
+<body>
+
+    <div class="terminal-container">
+
+        <!-- ========================================= -->
+        <!-- ================= HEADER ================ -->
+        <!-- ========================================= -->
+
+        <div class="terminal-header">
+
+            BLACKWOOD INTERNAL TERMINAL
+
+        </div>
+
+        <!-- ========================================= -->
+        <!-- ================= LOGIN ================= -->
+        <!-- ========================================= -->
+
+        <div class="login-box"
+             id="loginBox">
+
+            <div class="terminal-line">
+
+                ACCESS RESTRICTED
+
+            </div>
+
+            <div class="terminal-line">
+
+                Enter internal code:
+
+            </div>
+
+            <input type="password"
+                   id="passwordInput"
+                   placeholder="••••">
+
+            <button onclick="checkPassword()">
+
+                ACCESS
+
+            </button>
+
+            <div class="error-text"
+                 id="errorText">
+
+                Invalid code.
+
+            </div>
+
+        </div>
+
+        <!-- ========================================= -->
+        <!-- ================= SYSTEM ================ -->
+        <!-- ========================================= -->
+
+        <div class="system-box hidden"
+             id="systemBox">
+
+            <div class="terminal-line green">
+
+                ACCESS GRANTED
+
+            </div>
+
+            <div class="terminal-line">
+
+                Recovering deleted records...
+
+            </div>
+
+            <div class="terminal-line red">
+
+                ERROR:
+                corrupted fragments detected.
+
+            </div>
+
+            <div class="terminal-line">
+
+                > incident_04.log
+
+            </div>
+
+            <div class="terminal-line">
+
+                > incident_07.log
+
+            </div>
+
+            <div class="terminal-line">
+
+                > incident_11.log
+
+            </div>
+
+            <div class="terminal-line red">
+
+                Pattern detected:
+                repeated juvenile behavior.
+
+            </div>
+
+            <div class="terminal-line">
+
+                “No emotional reaction.”
+
+            </div>
+
+            <div class="terminal-line">
+
+                “Said he heard it before.”
+
+            </div>
+
+            <div class="terminal-line">
+
+                “Phrase appears repeatedly.”
+
+            </div>
+
+            <div class="terminal-line glitch">
+
+                SHE IS STILL BELOW
+
+            </div>
+
+            <div class="terminal-line">
+
+                recovery interrupted...
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="interno.js"></script>
+
+</body>
+
+</html>
